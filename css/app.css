@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(156, 142, 142);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  /* color: blue; */
+  /* margin: auto; */
+}
+
+.modal {
+  display: none;
+  width: 200px;
+  height: 75px;
+  padding-top: 15px;
+  background-color: rgba(75, 75, 212, 0.808);
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  border-radius: 10%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(250, 214, 161);
+}
+
+div {
+  margin: auto;
+}
+
+.wall {
+  color: rgb(97, 116, 221);
+  /* width: 500px; */
+}
+
+.board-container {
+  background-color: rgb(238, 225, 225);
+  width: 900px;
+  height: 550px;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
